@@ -1,4 +1,4 @@
-# <p align="center"> SUPERCELL_STARTHACK23 </p>
+# <p align="center"> SUPERCELL </p>
 
 # <p align="center"> Insert Title here </p>
 
