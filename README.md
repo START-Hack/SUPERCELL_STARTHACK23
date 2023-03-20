@@ -27,6 +27,98 @@ To be clear, we have this mostly solved when it comes to using two players’ ch
 
 ##  <p align="center"> Resources: </p>
 
+# Data
+You may or may not use the following partial datasets to help you come up with a solution to the challenge. The data consists of four .csv files, containing chat message data, account level data, and data relevant to alliances (groups of players that play the game together).
+
+The datasets are joinable by account_id and/or alliance_id.
+
+As a part of your solution you may indicate what kind of additional data would be / have been helpful in reaching a better solution.
+
+## chat_messages.csv
+Contains chat message data from users on 2023-03-01
+
+The message topic fields GENERAL_RISK, BULLYING, VIOLENCE, RELATIONSHIP_SEXUAL_CONTENT, VULGARITY, DRUGS_ALCOHOL, IN_APP,  ALARM, FRAUD, and HATE_SPEECH contain graded (from -1 to 7) by risk level, with -1 being that the topic is absent and 7 being high risk. All messages are also accompanied by an overall risk score (the field: risk). 
+
+The field filtered_content contains an array of the filtered out words from the raw_message string.
+The field is_family_friendly (0 or 1) informs whether this player is a chatting in an alliance environment that should be considered family friendly. That is the alliance contains young players that should be more protected from harm and sharing personal information.
+
+Schema:
+account_id:string
+alliance_id:string
+timestamp:timestamp
+date:date
+raw_message:string
+filtered_message:string
+filtered:integer
+filtered_content:array[string]
+risk:long
+filter_detected_language:string
+is_family_friendly:integer
+GENERAL_RISK:long
+BULLYING:long
+VIOLENCE:long
+RELATIONSHIP_SEXUAL_CONTENT:long
+VULGARITY:long
+DRUGS_ALCOHOL:long
+IN_APP:long
+ALARM:long
+FRAUD:long
+HATE_SPEECH:long
+
+
+## accounts.csv
+Contains additional account information for users that posted chat messages on 2023-03-01
+
+The field active tells if the player was active on that day. Basically this should hold true for every account provided here.
+The field level is the player level in the game. This can be thought of as an indicator of progression.
+
+Schema:
+account_id:string
+alliance_id:string
+session_count:long
+session_duration:double
+transaction_count:long
+revenue:double
+date:date
+active:string
+account_state:integer
+last_active_date:date
+level:integer
+created_language:string
+created_country_code:string
+created_time:timestamp
+session_count_today:long
+session_duration_today:double
+transaction_count_today:long
+revenue_today:double
+last_login_game_client_language:string
+last_login_country_code:string
+
+
+## alliance_ff.csv
+Contains alliance family friendly (ff) status for alliances that contains user that posted chat messages on 2023-03-01
+
+Family friendly means that the alliance contains young players that should be more protected from harm and sharing personal information.
+
+Schema:
+alliance_id:string
+family_friendly:integer (-1 = no, 0 = unassigned, 1 = yes)
+date:date
+
+## alliance_membership.csv
+Contains alliance membership information (actions of players joining, leaving, being kicked out, failed to join, etc) for alliances that contains user that posted chat messages on 2023-03-01
+
+The field size indicates the amount of players in the alliance at the time of the given account alliance membership action taking place.
+The field max_size indicates the maximum amount of players allowed in the alliance.
+
+Schema:
+account_id:string
+alliance_id:string
+timestamp:timestamp
+date:date
+action:string
+size:integer
+max_size:integer
 
 ## <p align="center"> Judging Criteria: </p>
 
