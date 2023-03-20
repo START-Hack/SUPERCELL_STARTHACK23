@@ -28,14 +28,14 @@ To be clear, we have this mostly solved when it comes to using two players’ ch
 ##  <p align="center"> Resources: </p>
 
 ## <p align="center"> Data </p>
-You may or may not use the following partial datasets to help you come up with a solution to the challenge. The data consists of five .csv files, containing chat message data, account level data, and data relevant to alliances (groups of players that play the game together).
+You may or may not use the following partial datasets to help you come up with a solution to the challenge. The data consists of six zipped .csv files, containing chat message data, account level data, and data relevant to alliances (groups of players that play the game together).
 
 The datasets are joinable by account_id and/or alliance_id.
 
 As a part of your solution you may indicate what kind of additional data would be / have been helpful in reaching a better solution.
 
-## chat_messages.csv
-Contains chat message data from users on 2023-03-01
+## chat_messages_1.csv and chat_messages_2.csv
+Contains chat message data from users on 2023-03-01.
 
 The message topic fields GENERAL_RISK, BULLYING, VIOLENCE, RELATIONSHIP_SEXUAL_CONTENT, VULGARITY, DRUGS_ALCOHOL, IN_APP,  ALARM, FRAUD, and HATE_SPEECH contain graded (from -1 to 7) by risk level, with -1 being that the topic is absent and 7 being high risk. All messages are also accompanied by an overall risk score (the field: risk). 
 
