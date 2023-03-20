@@ -120,6 +120,13 @@ action:string
 size:integer
 max_size:integer
 
+[accounts.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016656/accounts.csv.zip)
+[alliance_ff.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016658/alliance_ff.csv.zip)
+[alliance_membership.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016662/alliance_membership.csv.zip)
+[chat_messages_1.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016663/chat_messages_1.csv.zip)
+[chat_messages_2.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016666/chat_messages_2.csv.zip)
+
+
 ## <p align="center"> Judging Criteria: </p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in sodales turpis. Donec euismod diam sit amet fermentum imperdiet. Donec justo mi, lacinia sed dolor vel, convallis tincidunt ligula. Duis suscipit ante tellus, lacinia venenatis lorem suscipit in. Sed ac ipsum tincidunt, consequat est ut, molestie nunc. Donec efficitur risus ut erat luctus, id congue odio rhoncus. Curabitur neque lorem, maximus at est sit amet, semper vehicula libero. Aliquam a fermentum leo. Mauris rhoncus lorem sed lorem auctor, eu tempus risus ultrices. Proin condimentum sem at commodo congue.
