@@ -43,26 +43,47 @@ The field filtered_content contains an array of the filtered out words from the 
 The field is_family_friendly (0 or 1) informs whether this player is a chatting in an alliance environment that should be considered family friendly. That is the alliance contains young players that should be more protected from harm and sharing personal information.
 
 Schema:
+
 account_id:string
+
 alliance_id:string
+
 timestamp:timestamp
+
 date:date
+
 raw_message:string
+
 filtered_message:string
+
 filtered:integer
+
 filtered_content:array[string]
+
 risk:long
+
 filter_detected_language:string
+
 is_family_friendly:integer
+
 GENERAL_RISK:long
+
 BULLYING:long
+
 VIOLENCE:long
+
 RELATIONSHIP_SEXUAL_CONTENT:long
+
 VULGARITY:long
+
 DRUGS_ALCOHOL:long
+
 IN_APP:long
+
 ALARM:long
+
 FRAUD:long
+
 HATE_SPEECH:long
 
 
@@ -73,25 +94,45 @@ The field active tells if the player was active on that day. Basically this shou
 The field level is the player level in the game. This can be thought of as an indicator of progression.
 
 Schema:
+
 account_id:string
+
 alliance_id:string
+
 session_count:long
+
 session_duration:double
+
 transaction_count:long
+
 revenue:double
+
 date:date
+
 active:string
+
 account_state:integer
+
 last_active_date:date
+
 level:integer
+
 created_language:string
+
 created_country_code:string
+
 created_time:timestamp
+
 session_count_today:long
+
 session_duration_today:double
+
 transaction_count_today:long
+
 revenue_today:double
+
 last_login_game_client_language:string
+
 last_login_country_code:string
 
 
@@ -101,8 +142,11 @@ Contains alliance family friendly (ff) status for alliances that contains user t
 Family friendly means that the alliance contains young players that should be more protected from harm and sharing personal information.
 
 Schema:
+
 alliance_id:string
+
 family_friendly:integer (-1 = no, 0 = unassigned, 1 = yes)
+
 date:date
 
 ## alliance_membership.csv
@@ -112,18 +156,29 @@ The field size indicates the amount of players in the alliance at the time of th
 The field max_size indicates the maximum amount of players allowed in the alliance.
 
 Schema:
+
 account_id:string
+
 alliance_id:string
+
 timestamp:timestamp
+
 date:date
+
 action:string
+
 size:integer
+
 max_size:integer
 
 [accounts.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016656/accounts.csv.zip)
+
 [alliance_ff.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016658/alliance_ff.csv.zip)
+
 [alliance_membership.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016662/alliance_membership.csv.zip)
+
 [chat_messages_1.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016663/chat_messages_1.csv.zip)
+
 [chat_messages_2.csv.zip](https://github.com/START-Hack/SUPERCELL_STARTHACK23/files/11016666/chat_messages_2.csv.zip)
 
 
