@@ -20,13 +20,10 @@ To be clear, we have this mostly solved when it comes to using two players’ ch
 
 <p align="center"> Insert Pitchdeck here </p>
 
-## <p align="center"> Deep Dive Slides: </p>
+## <p align="center"> Deep Dive: </p>
 
-<p align="center"> Insert Deep Dive Slides here </p>
+<p align="center"> Please visit us at our space for the deep dives and let's have a conversation. </p>
 
-## <p align="center"> Further Information: </p>
-
-Pellentesque vehicula nibh ut metus tempor, id finibus ligula auctor. Vivamus semper dui semper ante condimentum commodo. Sed eget odio ac odio rutrum viverra eget ut dui. Sed scelerisque sem sit amet auctor gravida. Curabitur auctor urna quis lacus tempus luctus. Phasellus dictum erat sit amet nulla commodo egestas. Suspendisse potenti. Duis quis justo ut quam mollis venenatis vel ut ipsum. Integer ornare, neque ut aliquam convallis, odio eros rutrum quam, non pharetra turpis nisl ac arcu. Fusce in nulla tempor, semper nisi eu, sollicitudin est.
 
 ##  <p align="center"> Resources: </p>
 
@@ -37,9 +34,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in sodales turpis. D
 
 ## <p align="center"> Point of Contact: </p>
 
-<p align="center"> Name, Name, or Name will be glad to answer your questions during the Deep Dive. We’ll also be available on Discord. </p>
+<p align="center"> Nate, Albert and Lucas will be glad to answer your questions during the Deep Dive. We’ll also be available on Discord. </p>
 
 
 ## <p align="center"> Prize - the winning team members will each receive: </p>
 
-### Prize Name
+### A Nintendo Switch and AirPods Pro
