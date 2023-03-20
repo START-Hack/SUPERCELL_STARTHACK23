@@ -27,7 +27,7 @@ To be clear, we have this mostly solved when it comes to using two players’ ch
 
 ##  <p align="center"> Resources: </p>
 
-# Data
+## <p align="center"> Data </p>
 You may or may not use the following partial datasets to help you come up with a solution to the challenge. The data consists of four .csv files, containing chat message data, account level data, and data relevant to alliances (groups of players that play the game together).
 
 The datasets are joinable by account_id and/or alliance_id.
