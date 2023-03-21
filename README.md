@@ -2,6 +2,8 @@
 
 # <p align="center"> Building Contextual Empathy </p>
 
+<img width="1087" alt="Screenshot 2022-03-22 at 14 04 23" src="https://user-images.githubusercontent.com/120366987/226589165-116c28ce-0d7e-4c97-a0a2-df2e67b40c2f.png">
+
 ## <p align="center"> Case Introduction: </p>
 
 In an ideal situation, when a player is facing harmful, hurtful, dangerous, or problematic behaviour (we’ll call this collectively _disruptive_ going forward), either the person who is being targeted or someone who is witness to this behaviour will alert a moderator through some sort of reporting.
