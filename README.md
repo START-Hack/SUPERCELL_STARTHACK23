@@ -186,7 +186,22 @@ max_size:integer
 
 ## <p align="center"> Judging Criteria: </p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in sodales turpis. Donec euismod diam sit amet fermentum imperdiet. Donec justo mi, lacinia sed dolor vel, convallis tincidunt ligula. Duis suscipit ante tellus, lacinia venenatis lorem suscipit in. Sed ac ipsum tincidunt, consequat est ut, molestie nunc. Donec efficitur risus ut erat luctus, id congue odio rhoncus. Curabitur neque lorem, maximus at est sit amet, semper vehicula libero. Aliquam a fermentum leo. Mauris rhoncus lorem sed lorem auctor, eu tempus risus ultrices. Proin condimentum sem at commodo congue.
+### Impact
+How relevant is the solution to the given problem? How will it change the way we think about the problem? How will the business, community, and people using the solution benefit?
+
+### Innovation/creativity
+How creative or innovative was the idea of the solution? Was the solution something that hasn’t been successfully implemented in the past (novelty)?  
+
+### Policy
+How well does the solution abide with different laws and regulations when in comes to user privacy and safety, especially in the case of young players. For example GDPR and COPPA compliance.
+
+### Technical sophistication
+How technically impressive is the solution? Does the solution utilise modern technologies and/or ML/AI in useful way?
+
+### Feasibility/Robustness
+Is the solution something that could be actually put into production with rather small efforts? Does it scale well when we are thinking about 100 million users per day and even more user based events per day? Will the cost/benefit ratio be balanced?
+
+
 
 ## <p align="center"> Point of Contact: </p>
 
