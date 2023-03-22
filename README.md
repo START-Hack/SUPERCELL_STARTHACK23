@@ -18,9 +18,6 @@ In the digital space, we have plenty of signals, but trying to make sense of the
 
 To be clear, we have this mostly solved when it comes to using two players’ chat records when it comes to things like hateful, racist, or overtly sexual content. We’re looking to solve for the things that can’t be easily surfaced through chat alone.
 
-## <p align="center"> The Pitch: </p>
-
-<p align="center"> Insert Pitchdeck here </p>
 
 ## <p align="center"> Deep Dive: </p>
 
